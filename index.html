@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConferenceWebsite</title>
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+
+<body>
+    <header>
+        <div class="bg-black">
+            <a href="/"><img src="./assets/images/logo.png" alt="logo"></a>
+        </div>
+    </header>
+
+    <main>
+        <section
+            class="bg-black text-white  p-8 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="flex flex-col items-center md:items-start text-center md:text-left gap-3 max-w-sm">
+                <img src="./assets/images/confName.png" alt="img" class="h-12 w-auto object-contain">
+                <div>
+                    <h2 class="text-x1 font-bold">Конференция "Название конференции"</h2>
+                    <p class="text-gray-400 text-sm">Место проведения</p>
+                </div>
+                <button type="button"
+                    class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-6 rounded transition-colors mt-2">Зарегистрироваться</button>
+            </div>
+
+            <div class="flex flex-col items-center text-center gap-2">
+                <img src="./assets/images/twoImage.png" alt="2" class="h-16 w-auto object-contain">
+                <div class="text-sm font-medium tracking-wide uppercase text-gray-300">
+                    Дня
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center text-center gap-2">
+                <img src="./assets/images/thirteenImage.png" alt="13" class="h-16 w-auto object-contain">
+                <div class="text-sm font-medium tracking-wide uppercase text-gray-300">
+                    Часов докладов
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center text-center gap-2">
+                <img src="./assets/images/placeImage.png" alt="place" class="h-16 w-auto object-contain">
+                <div class="text-sm font-medium tracking-wide uppercase text-gray-300">
+                    Место
+                </div>
+            </div>
+        </section>
+
+        <section class="max-w-7x1 mx-auto px-4 py-16 flex flex-col gap-20 font-sans text-gray-800">
+            <div class="flex flex-col lg:flex-row items-center gap-12">
+                <div class="flex-1 space-y-5">
+                    <h2 class="font-bold text-3x1 md:text-4x1 font-extrabold text-gray-900 tracking-tight">О конференции
+                    </h2>
+                    <div>
+                        <p>
+
+                            Это уникальное событие, которое объединяет ведущих экспертов и инноваторов со всего мира для
+                            обсуждения новейших технологических разработок и их влияния на будущее нашего мира. На
+                            конференции будут представлены самые передовые идеи и практики, которые помогут участникам
+                            оставаться в курсе последних инноваций и получать значимые преимущества в своих отраслях.
+                        </p>
+                        <p>
+                            Кроме того, конференция предоставит уникальную возможность для обмена опытом, установления
+                            новых
+                            связей и создания ценных партнёрств. Присоединяйтесь к нам на конференции «Инновации и
+                            технологии: новые горизонты» и откройте для себя новые возможности для роста и развития!
+                        </p>
+                    </div>
+                    <div class="pt-2">
+                        <button type="button"
+                            class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-6 rounded transition-colors mt-2">Расписание</button>
+                    </div>
+                </div>
+                <div class="flex-1 w-full maxx-w-xl lg:max-w-none">
+                    <img src="./assets/images/about.png" alt="aboutImage">
+                </div>
+            </div>
+
+            <div class="flex flex-col lg:flex-row-reverse items-center gap-12">
+                <div class="flex-1 w-full max-w-x1 lg:max-w-none">
+                    <img src="./assets/images/hand.png" class="w-full h-auto object-cover rounded-2xl shadow-xl" alt="">
+                </div>
+                <div class="flex-1 space-y-5">
+                    <h3 class="text-2xl md:text-3xl font-bold text-gray-900 tracking-tight">Что будет?</h3>
+                    <div class="text-base md:text-lg text-gray-600 leading-relaxed">
+                        <p>
+
+                            На конференции будут обсуждаться такие темы, как искусственный интеллект, блокчейн, интернет
+                            вещей, кибербезопасность, биотехнологии и многое другое. В рамках мероприятия будут
+                            проводиться
+                            лекции, панельные дискуссии и мастер-классы от ведущих экспертов в области инноваций и
+                            технологий. Участники смогут не только получить новые знания, но и найти партнёров для
+                            реализации своих проектов, а также познакомиться с представителями венчурных фондов и
+                            инвесторами. Конференция «Инновации и технологии: новые горизонты» - это ваш шанс узнать о
+                            самых
+                            перспективных направлениях развития технологий и получить новые возможности для своего
+                            бизнеса!
+                        </p>
+                    </div>
+                    <div class="pt-2">
+                        <button type="button"
+                            class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg shadow-md hover:shadow-lg transition-all duration-200">Я
+                            учавствую!</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="max-w-7xl mx-auto px-4 py-12 font-sans text-gray-800 bg-black rounded-lg">
+            <div class="mb-8 text-center md:text-left">
+                <h2 class="text-3xl font-extrabold text-white tracking-tight">Ключевые темы</h2>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div
+                    class="flex flex-col xs:flex-row items-center gap-5 p-6 bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-200">
+                    <div
+                        class="flex-shrink-0 w-24 h-24 bg-blue-50 rounded-2xl flex items-center justify-center overflow-hidden shadow-inner">
+                        <img src="./assets/images/people.png" alt="Виртуальная реальность"
+                            class="w-full h-full object-contain p-2">
+                    </div>
+                    <div class="text-center xs:text-left">
+                        <h3 class="text-xl font-bold text-gray-900 leading-snug">Виртуальная и дополненная реальность
+                        </h3>
+                    </div>
+                </div>
+
+                <div
+                    class="flex flex-col xs:flex-row items-center gap-5 p-6 bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-200">
+                    <div
+                        class="flex-shrink-0 w-24 h-24 bg-blue-50 rounded-2xl flex items-center justify-center overflow-hidden shadow-inner">
+                        <img src="./assets/images/robot.png" alt="Робототехника"
+                            class="w-full h-full object-contain p-2">
+                    </div>
+                    <div class="text-center xs:text-left">
+                        <h3 class="text-xl font-bold text-gray-900 leading-snug">Робототехника</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="max-w-7xl mx-auto px-4 py-16 font-sans text-gray-800">
+            <div class="mb-12 text-center">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 tracking-tight">Для кого наша конференция?
+                </h2>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
+
+                <div
+                    class="flex flex-row items-start gap-4 sm:gap-6 p-5 sm:p-6 bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-200">
+                    <div
+                        class="flex-shrink-0 w-16 h-16 sm:w-24 sm:h-24 bg-blue-50 rounded-2xl flex items-center justify-center overflow-hidden">
+                        <img src="./assets/images/woman.png" alt="Предприниматели" class="w-full h-full object-cover">
+                    </div>
+                    <div class="flex flex-col space-y-2 text-left">
+                        <h3 class="text-lg sm:text-xl font-bold text-gray-900 leading-snug">Предприниматели и стартапы
+                        </h3>
+                        <p class="text-xs sm:text-sm md:text-base text-gray-600 leading-relaxed">
+                            Для предпринимателей и стартапов конференция «Инновации и технологии: новые горизонты» будет
+                            отличной возможностью узнать о последних технологических достижениях, а также получить
+                            ценные советы от экспертов в области бизнеса и инвестирования. Участники смогут общаться с
+                            коллегами, делиться опытом и находить новые пути развития своих проектов.
+                        </p>
+                    </div>
+                </div>
+
+                <div
+                    class="flex flex-row items-start gap-4 sm:gap-6 p-5 sm:p-6 bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-200">
+                    <div
+                        class="flex-shrink-0 w-16 h-16 sm:w-24 sm:h-24 bg-blue-50 rounded-2xl flex items-center justify-center overflow-hidden">
+                        <img src="./assets/images/man.png" alt="Инвесторы" class="w-full h-full object-cover">
+                    </div>
+                    <div class="flex flex-col space-y-2 text-left">
+                        <h3 class="text-lg sm:text-xl font-bold text-gray-900 leading-snug">Представители венчурных
+                            фондов и инвесторы</h3>
+                        <p class="text-xs sm:text-sm md:text-base text-gray-600 leading-relaxed">
+                            Для инвесторов и представителей венчурных фондов конференция будет полезной, так как они
+                            смогут познакомиться с новыми перспективными проектами и технологиями, которые могут
+                            принести высокую прибыль в будущем. Кроме того, они смогут установить контакты с
+                            предпринимателями и стартапами, которые нуждаются в инвестициях.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="max-w-7xl mx-auto px-4 py-12 font-sans">
+            <div
+                class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white rounded-3xl p-8 md:p-12 shadow-xl text-center flex flex-col items-center gap-6">
+                <h2 class="text-2xl md:text-4xl font-extrabold tracking-tight max-w-2xl leading-tight">
+                    Будь в курсе новейших мировых технологий
+                </h2>
+
+                <div class="mt-2">
+                    <a href="/"
+                        class="inline-block bg-white text-blue-600 hover:bg-gray-100 font-bold text-base md:text-lg py-4 px-8 rounded-xl shadow-md hover:shadow-lg transition-all duration-200 transform hover:-translate-y-0.5">
+                        Зарегистрироваться на конференцию
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="max-w-7xl mx-auto px-4 py-16 font-sans text-gray-800">
+            <div class="mb-12 text-center md:text-left">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 tracking-tight">Спикеры конференции</h2>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                <div
+                    class="group flex flex-col bg-white border border-gray-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-200">
+                    <div class="aspect-square w-full overflow-hidden bg-gray-100 relative">
+                        <img src="https://unsplash.com" alt="Александр Петров"
+                            class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
+                    </div>
+                    <div class="p-5 flex flex-col flex-grow">
+                        <h3 class="text-lg font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
+                            Александр Петров</h3>
+                        <p class="text-sm text-gray-500 font-medium mt-1">AI Research Lead, TechCorp</p>
+                        <p class="text-sm text-gray-600 mt-3 line-clamp-3">
+                            Эксперт в области глубокого обучения и нейросетей. Расскажет о будущем генеративного
+                            искусственного интеллекта в бизнесе.
+                        </p>
+                    </div>
+                </div>
+
+                <div
+                    class="group flex flex-col bg-white border border-gray-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-200">
+                    <div class="aspect-square w-full overflow-hidden bg-gray-100 relative">
+                        <img src="https://unsplash.com" alt="Елена Иванова"
+                            class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
+                    </div>
+                    <div class="p-5 flex flex-col flex-grow">
+                        <h3 class="text-lg font-bold text-gray-900 group-hover:text-blue-600 transition-colors">Елена
+                            Иванова</h3>
+                        <p class="text-sm text-gray-500 font-medium mt-1">Директор по инновациям, FinTech Solutions</p>
+                        <p class="text-sm text-gray-600 mt-3 line-clamp-3">
+                            Более 10 лет опыта в интеграции блокчейн-технологий в банковский сектор. Поделится кейсами
+                            реального применения смарт-контрактов.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-900 text-gray-400 py-12 font-sans border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+
+            <div class="flex flex-col gap-4">
+                <h3 class="text-white text-lg font-bold tracking-wide">Мы в социальных сетях</h3>
+                <ul class="flex flex-col sm:flex-row md:flex-col justify-center md:justify-start gap-3">
+                    <li>
+                        <a href="#"
+                            class="inline-flex items-center gap-2 hover:text-white transition-colors duration-200">
+                            <span class="text-red-500">▶</span> YouTube
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="inline-flex items-center gap-2 hover:text-white transition-colors duration-200">
+                            <span class="text-blue-500">⬤</span> ВКонтакте
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="inline-flex items-center gap-2 hover:text-white transition-colors duration-200">
+                            <span class="text-orange-500">🔶</span> Одноклассники
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="flex flex-col gap-4">
+                <h3 class="text-white text-lg font-bold tracking-wide">Контактная информация</h3>
+                <div class="space-y-2 text-sm md:text-base">
+                    <p class="flex items-center justify-center md:justify-start gap-2">
+                        <span class="text-gray-500">📍</span>
+                        <span><strong>Адрес:</strong> Москва, ул. Инноваций, д. 10</span>
+                    </p>
+                    <p class="flex items-center justify-center md:justify-start gap-2">
+                        <span class="text-gray-500">📞</span>
+                        <a href="tel:+74950000000" class="hover:text-white transition-colors">+7 (495) 000-00-00</a>
+                    </p>
+                    <p class="flex items-center justify-center md:justify-start gap-2">
+                        <span class="text-gray-500">✉️</span>
+                        <a href="mailto:info@conference.ru"
+                            class="hover:text-white transition-colors">info@conference.ru</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex flex-col justify-between md:items-end gap-4 md:text-right">
+                <div>
+                    <span class="text-xl font-extrabold text-white tracking-tight">Conf<span
+                            class="text-blue-500">Tech</span></span>
+                    <p class="text-xs text-gray-500 mt-1">Главное технологическое событие года</p>
+                </div>
+                <div class="text-sm text-gray-500 pt-4 border-t border-gray-800 md:border-none w-full md:w-auto">
+                    &copy; 2026 ConferenceWebSite. Все права защищены.
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
