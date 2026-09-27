@@ -16,8 +16,7 @@
     </header>
 
     <main>
-        <section
-            class="bg-black text-white  p-8 flex flex-col md:flex-row justify-between items-center gap-6">
+        <section class="bg-black text-white  p-8 flex flex-col md:flex-row justify-between items-center gap-6">
             <div class="flex flex-col items-center md:items-start text-center md:text-left gap-3 max-w-sm">
                 <img src="./assets/images/confName.png" alt="img" class="h-12 w-auto object-contain">
                 <div>
@@ -53,7 +52,8 @@
         <section class="max-w-7x1 mx-auto px-4 py-16 flex flex-col gap-20 font-sans text-gray-800">
             <div class="flex flex-col lg:flex-row items-center gap-12">
                 <div class="flex-1 space-y-5">
-                    <h2 class="font-bold text-3x1 md:text-4x1 font-extrabold text-gray-900 tracking-tight">О конференции
+                    <h2 class="font-bold text-3x1 md:text-4x1 font-extrabold text-gray-900 tracking-tight">
+                        О конференции
                     </h2>
                     <div>
                         <p>
@@ -75,14 +75,14 @@
                             class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-6 rounded transition-colors mt-2">Расписание</button>
                     </div>
                 </div>
-                <div class="flex-1 w-full maxx-w-xl lg:max-w-none">
-                    <img src="./assets/images/about.png" alt="aboutImage">
+                <div class="flex-1 w-full max-w-xl lg:max-w-none aspect-[4/3] overflow-hidden rounded-2xl shadow-xl">
+                    <img src="./assets/images/about.png" class="w-full h-full object-cover" alt="aboutImage">
                 </div>
             </div>
 
             <div class="flex flex-col lg:flex-row-reverse items-center gap-12">
-                <div class="flex-1 w-full max-w-x1 lg:max-w-none">
-                    <img src="./assets/images/hand.png" class="w-full h-auto object-cover rounded-2xl shadow-xl" alt="">
+                <div class="flex-1 w-full max-w-xl lg:max-w-none aspect-[4/3] overflow-hidden rounded-2xl shadow-xl">
+                    <img src="./assets/images/hand.png" class="w-full h-full object-cover" alt="handImage">
                 </div>
                 <div class="flex-1 space-y-5">
                     <h3 class="text-2xl md:text-3xl font-bold text-gray-900 tracking-tight">Что будет?</h3>
@@ -110,38 +110,47 @@
             </div>
         </section>
 
-        <section class="max-w-7xl mx-auto px-4 py-12 font-sans text-gray-800 bg-black rounded-lg">
-            <div class="mb-8 text-center md:text-left">
-                <h2 class="text-3xl font-extrabold text-white tracking-tight">Ключевые темы</h2>
-            </div>
+        <!-- 1. Внешний контейнер на всю ширину с черным фоном -->
+        <section class="w-full bg-black font-sans text-gray-800 rounded-lg">
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <div
-                    class="flex flex-col xs:flex-row items-center gap-5 p-6 bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-200">
-                    <div
-                        class="flex-shrink-0 w-24 h-24 bg-blue-50 rounded-2xl flex items-center justify-center overflow-hidden shadow-inner">
-                        <img src="./assets/images/people.png" alt="Виртуальная реальность"
-                            class="w-full h-full object-contain p-2">
-                    </div>
-                    <div class="text-center xs:text-left">
-                        <h3 class="text-xl font-bold text-gray-900 leading-snug">Виртуальная и дополненная реальность
-                        </h3>
-                    </div>
+            <!-- 2. Внутренний контейнер, который ограничивает ширину контента и центрирует его -->
+            <div class="max-w-7xl mx-auto px-4 py-12">
+
+                <div class="mb-8 text-center md:text-left">
+                    <h2 class="text-3xl font-extrabold text-white tracking-tight">Ключевые темы</h2>
                 </div>
 
-                <div
-                    class="flex flex-col xs:flex-row items-center gap-5 p-6 bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-200">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+
                     <div
-                        class="flex-shrink-0 w-24 h-24 bg-blue-50 rounded-2xl flex items-center justify-center overflow-hidden shadow-inner">
-                        <img src="./assets/images/robot.png" alt="Робототехника"
-                            class="w-full h-full object-contain p-2">
+                        class="flex flex-col xs:flex-row items-center gap-5 p-6 bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-200">
+                        <div
+                            class="flex-shrink-0 w-24 h-24 bg-blue-50 rounded-2xl flex items-center justify-center overflow-hidden shadow-inner">
+                            <img src="./assets/images/people.png" alt="Виртуальная реальность"
+                                class="w-full h-full object-contain p-2">
+                        </div>
+                        <div class="text-center xs:text-left">
+                            <h3 class="text-xl font-bold text-gray-900 leading-snug">Виртуальная и дополненная
+                                реальность</h3>
+                        </div>
                     </div>
-                    <div class="text-center xs:text-left">
-                        <h3 class="text-xl font-bold text-gray-900 leading-snug">Робототехника</h3>
+
+                    <div
+                        class="flex flex-col xs:flex-row items-center gap-5 p-6 bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-200">
+                        <div
+                            class="flex-shrink-0 w-24 h-24 bg-blue-50 rounded-2xl flex items-center justify-center overflow-hidden shadow-inner">
+                            <img src="./assets/images/robot.png" alt="Робототехника"
+                                class="w-full h-full object-contain p-2">
+                        </div>
+                        <div class="text-center xs:text-left">
+                            <h3 class="text-xl font-bold text-gray-900 leading-snug">Робототехника</h3>
+                        </div>
                     </div>
+
                 </div>
             </div>
         </section>
+
 
 
         <section class="max-w-7xl mx-auto px-4 py-16 font-sans text-gray-800">
